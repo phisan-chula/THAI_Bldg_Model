@@ -1,6 +1,6 @@
 #Research on Thai Building Modelling<br/>
 <br/>
-![Buiding Footprint at Chula.Univ.]([http://url/to/img.png](https://github.com/phisan-chula/Thai_Bldg_Model/blob/main/ML_Bldg_Chula.png))
+![ Buiding Footprint at ChulaUniv]([https://github.com/phisan-chula/Thai_Bldg_Model/blob/main/ML_Bldg_Chula.png])
 <br/>
 <br/>
 |    | Name                     | NumBldg   | Size     | LINK                                                                                       |

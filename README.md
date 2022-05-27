@@ -1,5 +1,8 @@
 #Research on Thai Building Modelling<br/>
-<br/>
+ขอบคุณ Microsoft BingMaps ได้ปล่อยข้อมูลรอยพิมพ์ฐานอาคารทั่วโลกกว่า 777 ล้านหลังคาเรือน โดยรอยพิมพ์ฐานอาคารได้จากภาพถ่ายรายละเอียดสูงจากดาวเทียมจาก คศ.2014 ถึง 2021 <br/>
+ในพื้นที่ประเทศไทย ปรากฏรอยพิมพ์ฐานอาคาร 24,505,493 อาคาร เป็นข้อมูลบีบอัด 1.8GB ทีมวิจัยได้ทำการแบ่งออกเป็นรายจังหวัด โดยใช้ขอบเขตจาก GADM ver4.0 ผู้ที่สนใจสามารถดาวโหลดในรูปแบบ geopackage รายจังหวัดได้<br/>
+This data is licensed by Microsoft under the Open Data Commons Open Database License (ODbL).
+ <br/>
 ![Buiding Footprint at ChulaUniv](https://github.com/phisan-chula/Thai_Bldg_Model/blob/main/ML_Bldg_Chula.png)
 <br/>
 <br/>

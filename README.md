@@ -1,5 +1,8 @@
 #Research on Thai Building Modelling<br/>
-งานวิจัย Open 3D Thai Building Model เป็นการผลิตข้อมูลแบบจำลองอาคาร LOD-1 ให้เป็น 3 มิติ เพื่อการใช้งานทั่วๆไป<br/>
+งานวิจัย Open 3D Thai Building Model เป็นการผลิตข้อมูลแบบจำลองอาคาร LOD-1 ให้เป็น LOD-2 3 มิติ เพื่อการใช้งานทั่วๆไป<br/>
+การแสดงผลแบบจำลองของเมือง Ciyt Model ที่ประกอบด้วยรูปสามมิติของตึกอาคารสิ่งปลูกสร้างผ่านระบบออนไลน์ อาจเลือกเทคนิคการแสดงผลได้ 4 แบบคือ
+A) แบบจำลองสามมิติชนิด extruded model หรือเ 3D Solid Model ได้จากการสร้างรูปทรงหลายเหลี่ยมจากรอยพิมพ์ฐานอาคาร (foot-print) แล้วดึงยึดขึ้น หรือเริ่มจากเส้นรอบหลังคา roof-line ฉายลงบนผิวโลก (LOD-1) ตามข้อมูลความสูงอาคาร ทำให้ได้รูปทรงปริมาตรของอาคาร (LOD-2) ดังตัวอย่างปรากฏ  ![3D Buiding Model at ChulaUniv](https://http://infraplus-dev.org:8084/Apps/main.html)
+B) แบบจำลองสามิติชนิด 3D Solid Model แต่เสริมเติมผิวด้านข้างและหลังค่าด้วย textture ซึ่งมักจะใช้การถ่ายภาพจากพื้นดินหรือถ่ายภาพทางอากาศเฉียงเข้าหาตัวอาคาร ตัวอย่างแบบจำลองอาคารสามมิติแบบนี้จะมีปรากอัตลักษณ์ของอาคารทำให้ผู้ใช้ง่ายต่อการจดจำ ตัวอย่างปรากฏใน  ![3D Buiding Model at ChulaUniv](https://http://infraplus-dev.org:8084/Apps/main.html)
 
 ![3D Buiding Model at ChulaUniv](https://github.com/phisan-chula/Thai_Bldg_Model/blob/main/Reference/Chula_3DBM.jpg)
 

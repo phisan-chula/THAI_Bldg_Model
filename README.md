@@ -2,6 +2,7 @@
 งานวิจัย Open 3D Thai Building Model เป็นการผลิตข้อมูลแบบจำลองอาคาร LOD-1 ให้เป็น LOD-2 3 มิติ เพื่อการใช้งานทั่วๆไป<br/>
 การแสดงผลแบบจำลองของเมือง Ciyt Model ที่ประกอบด้วยรูปสามมิติของตึกอาคารสิ่งปลูกสร้างผ่านระบบออนไลน์ อาจเลือกเทคนิคการแสดงผลได้ 4 แบบคือ<br/>
 
+A) แสดง 3D Immersive โดยการให้ผู้ใช้เรียกดูภาพถ่ายเฉียงที่ผ่านการประมวล Bundle Block Adjustment (BBA) จนได้ exterior orientation parameter (EOP) จากนั้นนำภาพไปเก็บในเซอร์เวอร์พร้อมเรียกใช้ผ่าน "Oblique Image Viewer" ตัวอย่างปรากฏใน [Oblique Image Viewer](https://web.geofly.eu/en/web-services/obviewsly/index.html)<br/>
 A) แบบจำลองสามมิติชนิด *Extrude model หรือ 3D Solid Model* ได้จากการสร้างรูปทรงหลายเหลี่ยมจากรอยพิมพ์ฐานอาคาร (foot-print) แล้วดึงยึดขึ้น หรือเริ่มจากเส้นรอบหลังคา roof-line ฉายลงบนผิวโลก (LOD-1) ตามข้อมูลความสูงอาคาร ทำให้ได้รูปทรงปริมาตรของอาคาร (LOD-2) ดังตัวอย่างปรากฏใน [3D Solid  City Model](http://infraplus-dev.org:8084/Apps/main.html)<br/>
 
 B) แบบจำลองสามมิติชนิด *3D Texture Model* ที่เกิดจาก 3D solid model แต่เสริมเติมผิวด้านข้างและหลังค่าด้วย textture ซึ่งมักจะใช้การถ่ายภาพจากพื้นดินหรือถ่ายภาพทางอากาศเฉียงเข้าหาตัวอาคาร ตัวอย่างแบบจำลองอาคารสามมิติแบบนี้จะมีปรากอัตลักษณ์ของอาคารทำให้ผู้ใช้ง่ายต่อการจดจำ ตัวอย่างปรากฏใน [3D Extruded City Model](http://infraplus-dev.org:8084/Apps/main.html)<br/>

@@ -16,13 +16,11 @@ D) แบบจำลองสามมิติ *3D point-cloud model* ที�
 
 นอกจากนี้ Global Building Atlas ยังมีจำนวนอาคารที่ครอบคลุมมากกว่า และมีการกระจายเชิงพื้นที่ที่สมดุลกว่า โดยไม่จำกัดเฉพาะเขตเมืองขนาดใหญ่ แต่รวมถึงพื้นที่กึ่งเมืองและชนบทในหลายประเทศ ทำให้สามารถนำไปใช้เป็นข้อมูลฐานระดับประเทศหรือระดับโลกได้อย่างเหมาะสม ในเชิงการใช้งาน ข้อมูลดังกล่าวถูกออกแบบให้เข้าถึงได้ในรูปแบบที่เอื้อต่อการประยุกต์ใช้ทั้งด้านวิชาการ หน่วยงานภาครัฐ และการวิเคราะห์เชิงนโยบาย
       <br/>
-
+---
 ## 🏗️ BldgFetch.py — Global Building Atlas Fetch Utility
 
 Command-line tool for fetching **Global Building Atlas (GBA)** building footprints and heights  
 by **geohash** or **latitude/longitude**, and for inspecting geohash neighborhoods.
-
----
 
 ### Usage
 ```bash
@@ -30,7 +28,7 @@ usage: BldgFetch.py [-h] [-o OUTDIR] (-g GEOHASH | -l LATLNG | -z ZORDER)
 
 Fetch GlobalBuildingAtlas buildings by geohash/latlng;
 or print a 3x3 geohash neighborhood map.
-
+---
       
 ในพื้นที่ประเทศไทย ปรากฏรอยพิมพ์ฐานอาคาร 24,505,493 อาคาร เป็นข้อมูลบีบอัด 1.8GB ทีมวิจัยได้ทำการแบ่งออกเป็นรายจังหวัด โดยใช้ขอบเขตจาก GADM ver4.0 ผู้ที่สนใจสามารถดาวโหลดในรูปแบบ geopackage รายจังหวัดได้<br/>
 This data is licensed by Microsoft under the Open Data Commons Open Database License (ODbL).
